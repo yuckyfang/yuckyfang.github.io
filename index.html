@@ -1,1 +1,621 @@
-Hello World
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Basic Page Needs––––––––––––––––––––––––––– -->
+
+<head>
+    <meta http-equiv="content-type" content="text/html">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Yuki Fang">
+    <title>Yuki Fang</title>
+
+    <!-- Bootstrap Core CSS ––––––––––––––––––––––––––– -->
+    <link href="bootstrap.css" rel="stylesheet">
+    <!-- Custom CSS ––––––––––––––––––––––––––– -->
+    <link href="portfolio.css" rel="stylesheet">
+    <!-- fontawesome ––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- To add a google font and paste the link -->
+    <link href="https://fonts.googleapis.com/css?family=Amiko|Coming+Soon" rel="stylesheet">
+    <!-- Favicon––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+
+
+</head>
+
+<body class="full" data-spy="scroll" data-target=".navbar" data-offset="100">
+
+    <!-- <div class="text-center view" id="view"> -->
+        
+    <!-- </div> -->
+
+    <nav class="navbar navbar-expand-md navbar-light navbackground" id="navbar">
+
+    <!--     add d-block d-sm-none class name if you just want to brand name apper in phone view.-->
+    <!--        <a class="navbar-brand page-scroll" href="#view">Navbar</a>-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <!--        Try justify-content-start, justify-content-end, justify-content-between to see different layout styles for the navigation.-->
+    <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link page-scroll" href="#about">ABOUT </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link page-scroll" href="#projects">PROJECTS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link page-scroll" href="#contact">CONTACT</a>
+            </li>
+            
+
+        </ul>
+        <ul class = "navbar-nav" id = "nameHeader">
+            YUKI FANG
+        </ul> 
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="resume.pdf">RESUME</a>
+
+            </li>
+            <li>
+                <a class="nav-link" href="https://github.com/yuckyfang/" target="_blank"><i class="fab fa-github" color='#ffa382'></i></a>
+            </li>
+            
+        </ul>
+       
+    </div>
+    
+</nav>
+    
+<div class="container-fluid" id="about">
+<div class="row justify-content-md-center">
+<div class="col-sm-6 content-panel p-3 mb-15"> 
+    <img class="img-me" src="profilePic.jpg" alt="me" />
+</div>
+<div class="col-md-4 aboutMe">
+    <h5>ABOUT ME</h5>
+    <p>Hi, I'm Yuki Fang, a current Computer Science student at the University of Michigan. I love learning,
+        especially about social computing, culture, performance art, market insights,
+        and current events. Over the summer, I interned at BlackRock, automating their
+        database retrieval system in the Strategic Product Management team. I'm still exploring my interests and one 
+        of my main passions is making STEM opportunities and menstruation products more accessible to underserved
+        communities. I'm an active Girls Who Code member and mentor, currently developing an educational 
+        program and a suite of design tools with my research professor to teach traditional African crafts work with code. 
+        <br> <br> 
+        <a href = "resume.pdf"> Click here for my resume </a>
+    </p>
+    
+</div>
+</div>
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<!--portfolio-->
+<div class="portfolio" id="projects">
+<h2 class="indentation">PROJECTS</h2>
+<br>
+<div class="container-fluid" id="portfolio-content">
+    <div class="row justify-content-center">
+    <div class="col-sm-auto text-center">
+    <div class="wrap">
+        <div class="overlay">
+        <a href="#" class="portfolio-link " data-toggle="modal" data-target="#portfolioModal1">
+        <img class="img-fluid square flash" src="xhosa.jpg" alt="work ">
+        </a>
+    </div>
+        <p class="caption"><i>Cyborg Textiles Research</i></p>
+    </div>
+    </div>
+    
+    <div class="col-sm-auto text-center">
+    <div class="wrap">
+        <div class="overlay">
+        <a href="#" class="portfolio-link " data-toggle="modal" data-target="#portfolioModal2">
+        <img class="img-fluid square flash" src="checkersBot.jpg" alt="work ">
+        </a>
+    </div>
+        <p class="caption"><i>Computer Vision & AI Checkers Bot</i></p>
+    </div>
+    </div>
+
+    <div class="col-sm-auto text-center">
+        <div class="wrap">
+            <div class="overlay">
+            <a href="#" class="portfolio-link " data-toggle="modal" data-target="#portfolioModal3">
+            <img class="img-fluid square flash" src="trash.jpg" alt="work ">
+            </a>
+        </div>
+            <p class="caption"><i>Web Game on Food Waste</i></p>
+        </div>
+        </div>
+
+    </div>
+
+    <br>
+    <br>
+
+    <div class="row justify-content-center">
+    <div class="col-sm-auto text-center">
+    <div class="wrap2">
+        <div class="overlay">
+        <a href="#" class="portfolio-link " data-toggle="modal" data-target="#portfolioModal4">
+        <img class="img-fluid square flash" src="chatbot.jpg" alt="work ">
+        </a>
+    </div>
+        <p class="caption"><i>Emoji Restaurant Chatbot</i></p>
+    </div>
+    </div>
+    <div class="col-sm-auto text-center">
+    <div class="wrap2">
+        <div class="overlay">
+        <a href="#" class="portfolio-link " data-toggle="modal" data-target="#portfolioModal5">
+        <img class="img-fluid square flash" src="poster.png" alt="work ">
+        </a>
+    </div>
+        <p class="caption"><i>PadPals - Menstruation Initiative</i></p>
+    </div>
+    </div>
+    <div class="col-sm-auto text-center">
+    <div class="wrap2">
+        <div class="overlay">
+        <a href="#" class="portfolio-link " data-toggle="modal" data-target="#portfolioModal6">
+        <img class="img-fluid square flash" src="schedule.jpg" alt="work ">
+        </a>
+        </div>
+        <p class="caption"><i>ScheduleUs - Scheduling Web App</i></p>
+    </div>
+    </div>
+
+    </div>
+</div>
+</div>
+
+<footer>
+    <div class='contact' id="contact">
+        <h2>CONTACT ME</h2>
+        <br>
+        <div class="container-fluid" id="contact-content">
+                <div class="col-sm-12 enveloperight">                  
+                  <ul>
+                    <li>Phone #: 917-860-8933</li>
+                    <li>Email: yukifang@umich.edu </li>
+                  </ul>
+                </div>
+          </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+
+<!--animation-->
+<!--js files-->
+<!--Animation-->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js "></script>
+<!-- Custom Theme JavaScript -->
+<script src="js/animation.js"></script>
+
+<script>
+    window.onscroll = function() {
+        myFunction();
+    };
+
+    var navbar = document.getElementById("navbar");
+    var body = document.getElementsByTagName("body")
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky");
+            body.classList.remove("full");
+        } else {
+            navbar.classList.remove("sticky");
+            body.classList.add("full");
+
+        }
+    }
+
+</script>
+
+
+</html>
+
+<div class="portfolio-modal modal" id="portfolioModal1" tabindex="-1 " role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header justify-content-end">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="container">
+                <div class="modal-body">
+                    <div class="modal-inner">
+
+                        <!--content goes here-->
+
+                        <div class="row">
+
+                            <div class="col-sm-8">
+                                <!--  Replace the image src path with your own images. The minimum image width is 720px-->
+                                <!--                                    mx-auto and d-block are two classes that will center the images in the grid-->
+                                <img src="xhosa.jpg" class="mx-auto d-block img-fluid mb-5" alt=" ">
+                                <img src="batikBot.jpg" class="mx-auto d-block img-fluid mb-5" alt=" ">
+                                <img src="basket.jpg" class="mx-auto d-block img-fluid mb-5" alt=" ">
+
+
+
+                            </div>
+                            <!--                    end of left part-->
+                            <div class="col-sm-4">
+                                <h6>Batik Bot - Research on Cyborg Textiles</h6>
+                                <p class="descript"> <i> With the goal of bringing more STEM opportunities to Africa, my 
+                                    professor, Ron Eglash, and I have been developing an educational program as well as a suite of design 
+                                    tools(CSDT) that teaches locals how to code designs found in their culture and traditional crafts work. 
+                                    We hope for an end product in which locals can translate their coded designs onto textiles using the 
+                                    batik bot we will create out of e-waste. </i> <br> <br> 
+                                    <b>Skills: </b> C++, Arduino, SNAP, Mechanical Engineering <br> <br> 
+                                    The second picture on the left is a prototype of our bot so far. <br> <br> 
+                                    Cultural traditions in weaving, basketry, and other crafts support skilled labor native to 
+                                    African communities, but are often threatened by competition from factory-made fakes and 
+                                    technology made to deskill labor. This research project aims to empower traditional craft 
+                                    labor by designing generative technology for human-machine collaboration. We’re designing 
+                                    software and an educational program that teaches locals how to create traditional textile 
+                                    designs with code, along with the developing devices that can use digital fabrication to 
+                                    apply the code, without the alienation that comes with mass production. This will allow 
+                                    older and younger generations to work together; fulfilling the elders’ desires to pass their 
+                                    traditions down, and the youth’s desire to be forward-looking. 
+                                     Currently, we are creating a robot that will assist in batik, a wax resist fabric dyeing process, 
+                                     made by upcycling e-waste out of old printers and scrap materials found in local communities. 
+                                     The robot design will be based on indigenous traditions using polar coordinate systems, and the 
+                                     dye itself will be made using local plant extracts to replace artificial dyes. We hope for an end 
+                                     product in which locals can translate their coded designs onto textiles and incorporate skilled labor
+                                      in a technologically advanced world. 
+                                    Overall, the project hopes to set an example for merging traditions with computational systems, 
+                                    encourage more people to repurpose waste into useful innovations, and to put the power of science 
+                                    and technology innovation in the hands of underserved communities. 
+                                </p>
+                                <ul class="list-inline item-details ">
+
+                                        <li><b>Link:</b>
+                                            <p><a href = "https://csdt.rpi.edu/">https://csdt.rpi.edu/</a> </p>
+                                        </li>
+                                    <li><b>Date:</b>
+                                        <p>September 2018 - Present </p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--                    end of right part-->
+                        </div>
+
+
+                    </div>
+                    <div class="row bottom">
+                        <a href="#" class="mr-auto" data-dismiss="modal">Back to Work</a>
+                        
+                    </div>
+                </div>
+
+            </div>
+            <!--end of portfolio modal-->
+        </div>
+    </div>
+</div>
+
+<div class="portfolio-modal modal" id="portfolioModal2" tabindex="-1 " role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header justify-content-end">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="container">
+                <div class="modal-body">
+                    <div class="modal-inner">
+
+                        <!--content goes here-->
+
+                        <div class="row">
+
+                            <div class="col-sm-8">
+                                <!--  Replace the image src path with your own images. The minimum image width is 720px-->
+                                <!--                                    mx-auto and d-block are two classes that will center the images in the grid-->
+                                <img src="checkersBot.jpg" class="mx-auto d-block img-fluid mb-5" alt=" ">
+                                <img src="checkers.jpg" class="mx-auto d-block img-fluid mb-5" alt=" ">
+
+                            </div>
+                            <!--                    end of left part-->
+                            <div class="col-sm-4">
+                                <h6>Checkers Playing Robot with Computer Vision & AI</h6>
+                                <p class="descript">For my final project, my group and I wanted to focus on the importance
+                                    of upcycling e-waste so we built a robot out of an old 3D printer and programmed it to play checkers with another
+                                        human using Computer Vision and AI. I led the Computer Vision side and used OpenCV to detect the color and shape of the checker pieces, 
+                                        figured out where they were on the board, then fed their positions to an open source AI that calculated the 
+                                        next best move using Python. Unfortunately, we did not finish the project before our senior year ended 
+                                        but you can still check out the code on my Github!                                     </p>
+                                <ul class="list-inline item-details ">
+                                    <li><b>Skills: </b>
+                                    <p>OpenCV, Python, C++, G&M Code, AutoCAD, Mechanical Engineering  </p></li>
+                                    <li> <b> Link: </b> 
+                                        <p><a href = "https://github.com/yuckyfang/CV-CheckersGame">https://github.com/yuckyfang/CV-CheckersGame</a></p>     
+                                    </li>
+                                    <li><b>Date:</b>
+                                        <p>May 2018 - June 2018</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--                    end of right part-->
+                        </div>
+
+
+                    </div>
+                    <div class="row bottom">
+                        <a href="#" class="mr-auto" data-dismiss="modal">Back to Work</a>
+                    </div>
+                </div>
+
+            </div>
+            <!--end of portfolio modal-->
+        </div>
+    </div>
+</div>
+
+<div class="portfolio-modal modal" id="portfolioModal3" tabindex="-1 " role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header justify-content-end">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="container">
+                <div class="modal-body">
+                    <div class="modal-inner">
+
+                        <!--content goes here-->
+
+                        <div class="row">
+
+                            <div class="col-sm-8">
+                                <!--  Replace the image src path with your own images. The minimum image width is 720px-->
+                                <!--                                    mx-auto and d-block are two classes that will center the images in the grid-->
+                                <img src="menu.jpg" class="mx-auto d-block img-fluid mb-5" alt=" ">
+                                <img src="restaurant.jpg" class="mx-auto d-block img-fluid mb-5" alt=" ">
+                            </div>
+                            <!--                    end of left part-->
+                            <div class="col-sm-4">
+                                <h6>Web Game on Food Waste</h6>
+                                <p class="descript">In our daily lives, we readily waste resources, particularly food, by disposing of items before they 
+                                    are completely used. We want to raise awareness of the importance of carefully using our resources, specifically helping those who 
+                                    are less fortunate.  By doing so, we are educating our audience about food waste and showing new ways that they can help. 
+                                    In the game, the player makes a fast-food order and must eat everything in a very short amount of time by clicking as quickly 
+                                    as possible. As the player orders more, the difficulty of finishing all of the items increases. It is easy to buy lots of 
+                                    food, especially at a fast food restaurant, where even a “full meal” wouldn’t cost very much. The difficulty of the
+                                 game represents how it is possible to get carried away and buy more food than one would need. In many cases, unfortunately, 
+                                 leftover food is thrown away. In the end of our game we have a “Solutions” page that shows three ways on how they can be more 
+                                 resourceful and a map that shows food banks and homeless shelters in New York City. 
+                                </p>
+                                <ul class="list-inline item-details ">
+                                    <li><b>Skills: </b>
+                                        <p>Javascript, HTML, CSS, Google Developer APIs </p>
+                                    </li>
+                                    <li><b> Link: </b>
+                                       <p> <a href = "https://justalittebit.github.io/Game/WebPage.html"> https://justalittebit.github.io/Game/WebPage.html </a> </p>
+                                    </li>
+                                    <li><b>Date:</b>
+                                        <p>August 2017</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--                    end of right part-->
+                        </div>
+
+
+                    </div>
+                    <div class="row bottom">
+                        <a href="#" class="mr-auto" data-dismiss="modal">Back to Work</a>
+                    </div>
+                </div>
+
+            </div>
+            <!--end of portfolio modal-->
+        </div>
+    </div>
+</div>
+
+<div class="portfolio-modal modal" id="portfolioModal4" tabindex="-1 " role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header justify-content-end">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="container">
+                <div class="modal-body">
+                    <div class="modal-inner">
+
+                        <!--content goes here-->
+
+                        <div class="row">
+
+                            <div class="col-sm-8">
+                                <!--  Replace the image src path with your own images. The minimum image width is 720px-->
+                                <!--                                    mx-auto and d-block are two classes that will center the images in the grid-->
+                                <img src="chatbot.jpg" class="mx-auto d-block img-fluid mb-5" alt=" ">
+                            </div>
+                            <!--                    end of left part-->
+                            <div class="col-sm-4">
+                                <h6>Emoji Restaurant Chatbot</h6>
+                                <p class="descript">Created a chatbot that recommends restaurants based on emojis and the location you send it as 
+                                    a fun side project with my data science mentor from the LGBTQ Out In Tech program. I used Python along with some natural language processing
+                                    libraries to summarize each review and decipher whether they were positive, neutral, or negative. 
+                                </p>
+                                <ul class="list-inline item-details ">
+                                    <li> <b>Skills:</b>
+                                    <p>Python, Yelp API, Twitter API</p></li>
+                                    <li><b>Link:</b>
+                                        <p><a href = "https://github.com/yuckyfang/Frankie">https://github.com/yuckyfang/Frankie</a></p>
+                                    </li>
+                                    <li><b>Date:</b>
+                                        <p>April 2018 - June 2018</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--                    end of right part-->
+                        </div>
+
+
+                    </div>
+                    <div class="row bottom">
+                        <a href="#" class="mr-auto" data-dismiss="modal">Back to Work</a>
+                    </div>
+                </div>
+
+            </div>
+            <!--end of portfolio modal-->
+        </div>
+    </div>
+</div>
+
+<div class="portfolio-modal modal" id="portfolioModal5" tabindex="-1 " role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header justify-content-end">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="container">
+                <div class="modal-body">
+                    <div class="modal-inner">
+
+                        <!--content goes here-->
+
+                        <div class="row">
+
+                            <div class="col-sm-8">
+                                <!--  Replace the image src path with your own images. The minimum image width is 720px-->
+                                <!--                                    mx-auto and d-block are two classes that will center the images in the grid-->
+                                <img src="padpals.jpg" style = "height: 500px" class="mx-auto d-block img-fluid mb-5" alt=" ">
+                                <img src="poster.png" class="mx-auto d-block img-fluid mb-5" alt=" ">
+
+                            </div>
+                            <!--                    end of left part-->
+                            <div class="col-sm-4">
+                                <h6>PadPals - Menstruation Initiative for Homeless Women</h6>
+                                <p class="descript">Started and led an initiative with my friend to stop the stigma around menstruation
+                                        and give the neccessary menstruation products every homeless woman deserves. We have collected 
+                                        as well as donated over 1500 products to homeless shelters across NYC through collaborations 
+                                        between numerous high schools. After talking to homeless women ourselves, we found they are
+                                        often forced to repeatedly use old cloths or plastic bags during their menstruation process, resulting
+                                        in many infections that may 
+                                        arise due to bacteria that live in the blood. They felt helpless as they were shamed for undergoing 
+                                        a natural process of their body because people around them don’t understand their circumstances. 
+                                        With PadPal, we hope to offer women an equal opportunity to live an affordable, comfortable, and hygienic life.
+    </p>
+                                <ul class="list-inline item-details ">
+                                    
+                                    <li><b>Date:</b>
+                                        <p>June 2017 - Present</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--                    end of right part-->
+                        </div>
+
+
+                    </div>
+                    <div class="row bottom">
+                        <a href="#" class="mr-auto" data-dismiss="modal">Back to Work</a>
+                        
+                    </div>
+                </div>
+
+            </div>
+            <!--end of portfolio modal-->
+        </div>
+    </div>
+</div>
+
+<div class="portfolio-modal modal" id="portfolioModal6" tabindex="-1 " role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header justify-content-end">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="container">
+                <div class="modal-body">
+                    <div class="modal-inner">
+
+                        <!--content goes here-->
+
+                        <div class="row">
+
+                            <div class="col-sm-8">
+                                <!--  Replace the image src path with your own images. The minimum image width is 720px-->
+                                <!--                                    mx-auto and d-block are two classes that will center the images in the grid-->
+                                <img src="schedule.jpg" class="mx-auto d-block img-fluid mb-5" alt=" ">
+                            </div>
+                            <!--                    end of left part-->
+                            <div class="col-sm-4">
+                                <h6>ScheduleUs - Scheduling Web App</h6>
+                                <p class="descript">ScheduleUs is a scheduling web app my group and I built for MHACKS, a 36 hours hackathon at the 
+                                    University of Michigan. When it comes to scheduling an event, it can get pretty tedious with a large group of people. 
+                                    With the app, a user creates an event inviting everyone they wish to find a time with. This will automatically send a text to the users,
+                                    and the app will visualize what everyone's free times are. 
+                                    To build this, we used Django and its MVC pattern to build the web application, Google authentication and Calendar for data retrieval, Google Cloud to run everything, along with Twilio's APIs 
+                                    for the texting service.  </p>
+                                <ul class="list-inline item-details ">
+                                    <li> <b> Skills: </b>
+                                            Django, Python, Twilio API, Google Cloud</li> <br> 
+                                    <li><b>Link:</b>
+                                        <p><a href="https://github.com/yuckyfang/clockme">https://github.com/yuckyfang/clockme</a></p>
+                                    </li>
+                                    <li><b>Date:</b>
+                                        <p>October 2018</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--                    end of right part-->
+                        </div>
+
+
+                    </div>
+                    <div class="row bottom">
+                        <a href="#" class="mr-auto" data-dismiss="modal">Back to Work</a>
+                        
+                    </div>
+                </div>
+
+            </div>
+            <!--end of portfolio modal-->
+        </div>
+    </div>
+</div>
+
+
+                           
+
+                            
+                    
+                
+ 
