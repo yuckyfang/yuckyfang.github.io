@@ -191,8 +191,7 @@ box-shadow: 0 24px 30px rgba(0,0,0,0.3);
 }
 
 .content-panel {
-height: 90vh; 
-/* width: 100vw;  */
+height: 85vh; 
 background-color: #ffdd99;
 display:block;
 z-index: -1;
@@ -205,20 +204,84 @@ margin-top: 10px;
   margin:auto;
   margin: auto; 
   position: relative; 
-  padding-top: 6%; 
+  padding-top: 10%; 
   display: block; 
   
 }
 
 .aboutMe {
-  background: #ffc34d  ;
-  padding: 5% 3% 0% 3%;
+  background: #ffc34d;
+  padding: 6% 3% 0% 3%;
   z-index: 10;
   font-size: 1em;
   color: #444444; 
   margin-top: 10px; 
   text-align: center;
   
+}
+
+@media screen and (min-width: 320px) {
+  .aboutMe {
+    font-size: 12px;
+  }
+  .img-me {
+    width:80%;
+    margin:auto;
+    margin: auto; 
+    position: relative; 
+    padding-top: 17%; 
+    display: block; 
+    
+  }
+}
+
+  @media screen and (min-width: 400px) {
+    .aboutMe {
+      font-size: 12px;
+    }
+    .img-me {
+      width:70%;
+      margin:auto;
+      margin: auto; 
+      position: relative; 
+      padding-top: 15%; 
+      display: block; 
+      
+    }
+  }
+
+@media screen and (min-width: 500px) {
+  .aboutMe {
+    font-size: 12px;
+  }
+  .img-me {
+    width:80%;
+    margin:auto;
+    margin: auto; 
+    position: relative; 
+    padding-top: 15%; 
+    display: block; 
+    
+  }
+}
+@media screen and (min-width: 1000px) {
+  .aboutMe {
+    font-size: 13px;
+  }
+  .img-me {
+    width:60%;
+    margin:auto;
+    margin: auto; 
+    position: relative; 
+    padding-top: 10%; 
+    display: block; 
+    
+  }
+}
+@media screen and (min-width: 1200px) {
+  .aboutMe {
+    font-size: 14px;
+  }
 }
 
 .aboutMe a{
