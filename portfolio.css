@@ -1,8 +1,5 @@
 /*Web type scale*/
 
-
-/*http://type-scale.com/*/
-
 html {
   font-size: 1em;
 }
@@ -18,7 +15,6 @@ body {
 p {
   margin-bottom: 1.3em;
   font-family: 'Amiko', sans-serif;
-
 }
 
 
@@ -429,30 +425,12 @@ font-size: 15px;
 }
 
 
-
-/*.portfolio-link img {
--webkit-filter: grayscale(100%);
-filter: grayscale(100%);
-}
-*/
-
-/*.portfolio-link img:hover {
-  opacity: 0.9;
-
-  -webkit-filter: grayscale(0%);
-  filter: grayscale(0%);
-  filter: contrast(150%);
-}
-*/
-
-
 .project-link img:hover {
   opacity: 0.8;
 
   -webkit-filter: grayscale(40%);
   filter: grayscale(40%); /*ask how to do it the opposite way*/
 }
-
 
 .project-modal .modal-body {
    position: static;
