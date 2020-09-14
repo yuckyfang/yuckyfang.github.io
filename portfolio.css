@@ -192,6 +192,10 @@ box-shadow: 0 24px 30px rgba(0,0,0,0.3);
 
 }
 
+#nameHeader:hover {
+  color: #ffb399; 
+}
+
 .content-panel {
 height: 85vh; 
 background-color: #ffdd99;
@@ -602,7 +606,6 @@ footer .info {
 
 .enveloperight {
 background-color: #ffd480;
-height: 100%; 
 text-align: center; 
 padding-top:1%; 
 font-family: 'Coming Soon', cursive;
