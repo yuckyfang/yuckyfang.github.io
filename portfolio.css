@@ -602,6 +602,7 @@ footer .info {
 
 .enveloperight {
 background-color: #ffd480;
+height: 100%; 
 text-align: center; 
 padding-top:1%; 
 font-family: 'Coming Soon', cursive;
