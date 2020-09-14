@@ -13,8 +13,8 @@ body {
 }
 
 p {
-  margin-bottom: 1.3em;
   font-family: 'Amiko', sans-serif;
+  padding: 1%; 
 }
 
 
@@ -54,6 +54,12 @@ small,
 html,
 body {
   height: 100%;
+}
+
+.contactLink a:link {
+color: black;
+background-color: transparent;
+text-decoration: none;
 }
 
 .sticky {
@@ -216,6 +222,10 @@ margin-top: 10px;
   
 }
 
+.aboutMe:hover {
+    background-color: #ffa54d;
+}
+
 @media screen and (min-width: 320px) {
   .aboutMe {
     font-size: 12px;
@@ -280,15 +290,15 @@ margin-top: 10px;
   }
 }
 
-.aboutMe a{
+/* #aboutMe a{
   text-decoration: underline; 
   color: #444444; 
 }
 
-.aboutMe a:hover{
+#aboutMe a:hover{
   color:#fa8960; 
 }
-
+ */
 
 .centered {
   position: absolute;
@@ -362,42 +372,25 @@ text-indent: 2em;
 
 .wrap {
 padding: 50px 20px .2px 20px;
+margin-top: 2%; 
 background-color:#ffcc99;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+border-radius: 4px;
 }
 
-.wrap2 {
-padding: 50px 20px .2px 20px;
-background-color: #b3d9ff;
+.wrap:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  background-color: #ffb399;
 }
 
-.wrap3{
-padding: 50px 20px .2px 20px;
-background-color:#bb99ff;
-}
-
+/*Portfolio thumbnails*/
 .square {
 height:350px;
 width:350px;
 object-fit: cover;
+border-radius: 4px; 
 }
-/*Portfolio thumbnails*/
-
-@-webkit-keyframes flash {
-0% { opacity: .2; }
-100% { opacity: 1; }
-}
-@keyframes flash {
-0% { opacity: .2; }
-100% { opacity: 1; }
-}
-
-.flash:hover {
-color: #ffffff;
-opacity: 1;
--webkit-animation: flash 2s;
-animation: flash 2s;
-}
-
 .overlay {
 z-index: 50;
 background-color: #FFFFFF;
@@ -406,7 +399,6 @@ background-color: #FFFFFF;
 .caption {
 font-family: 'Coming Soon', cursive;
 font-size: 22px;
-padding-top: 25px;
 
 }
 
@@ -521,6 +513,9 @@ font-size: 15px;
 /*portfolio modal*/
 .portfolio-modal .modal-body {
   position: static;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
 }
 
 /*modal box size*/
@@ -607,9 +602,8 @@ footer .info {
 
 .enveloperight {
 background-color: #ffd480;
-height:250px;
 text-align: center; 
-padding-top:5%; 
+padding-top:1%; 
 font-family: 'Coming Soon', cursive;
 font-size: 1.4em;
 }
@@ -619,3 +613,6 @@ ul{
   padding-left: 0px; 
 }
 
+.highlightMe{
+  background-color: white; 
+}
