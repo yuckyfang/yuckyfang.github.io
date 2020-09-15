@@ -186,14 +186,13 @@ box-shadow: 0 24px 30px rgba(0,0,0,0.3);
 }
 
 
-#nameHeader{
-  text-align: center; 
-  font-size: 2em; 
-
+.name{
+  font-size: 1.6em; 
 }
 
-#nameHeader:hover {
-  color: #ffb399; 
+.name:hover {
+  color: white; 
+  background-color:#ffd480; 
 }
 
 .content-panel {
@@ -505,13 +504,12 @@ font-size: 15px;
    /*background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23003366' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");*/
 /*}*/
 
-
-.carousel-control-prev-icon {
-   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffa382' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+.portfolio-link{
+  color: black; 
 }
 
-.carousel-control-next-icon {
-   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffa382' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+.portfolio-link a:hover{
+  color:gray; 
 }
 
 /*portfolio modal*/
@@ -619,4 +617,9 @@ ul{
 
 .highlightMe{
   background-color: white; 
+}
+
+.highlightMe:hover {
+  color: white; 
+  background-color:#ffd480; 
 }
