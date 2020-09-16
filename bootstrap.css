@@ -158,14 +158,14 @@ sup {
   top: -0.5em;
 }
 a {
-  color: #ff6a4d;
+  color: black;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 a:hover {
   color: gray;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:not([href]):not([tabindex]) {
   color: inherit;
@@ -4871,12 +4871,14 @@ input[type="submit"].btn-block {
 }
 .close {
   float: right;
-  font-size: 1.5rem;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 1;
   color: #000;
   text-shadow: 0 1px 0 #fff;
   opacity: 0.5;
+  position: fixed; 
+  top: 0; 
 }
 .close:not(:disabled):not(.disabled) {
   cursor: pointer;

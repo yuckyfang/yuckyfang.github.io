@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="author" content="Yuki Fang" />
+    <title>Yuki Fang</title>
+
+    <link href="bootstrap.css" rel="stylesheet" />
+    <link href="portfolio.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Amiko|Coming+Soon"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+  </head>
+
+  <body class="full" data-spy="scroll" data-target=".navbar" data-offset="100">
+    <nav class="navbar navbar-expand-md navbar-light navbackground" id="navbar">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div
+        class="collapse navbar-collapse justify-content-between"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="index.html">ABOUT</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="index.html#projects">PROJECTS</a>
+          </li>
+
+          <li lass="nav-item">
+            <a class="nav-link page-scroll" href="index.html#play">PLAY</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="index.html#contact">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="enveloperight">
+        <h2>10 Usability Heuristics for Mobile AR Design</h2>
+        <h3>
+          Scenario
+        </h3>
+        <h4>
+          Jacob Neilsen’s 10 usability heuristics are one of the most popular
+          ways to evaluate how user-friendly an interface is. It’s most used for
+          2D interfaces on mobile phones and computer screens, but what would
+          this look like if we applied it to 3D environments like Augmented and
+          Mixed Reality? Here are some UX and UI guidelines to AR experience
+          design.
+        </h4>
+
+        <h3 class="highlightMe">1. VISIBILITY OF SYSTEM STATUS</h3>
+        <h4>
+          The system should always keep users informed about what is going on
+          through appropriate feedback within a reasonable time.
+        </h4>
+        <p>
+          <i class="fas fa-asterisk"></i>
+          Use visuals, text, and animations to help users start the AR
+          experience. For example, when scanning for surfaces, use an animation
+          of a moving device and text that says "Move phone to start scanning",
+          so novice users know how to get started. You can also add visual grids
+          or dots on the screen to show which surfaces are being detected.<br />
+          <br />
+
+          <img
+            class="img-fluid"
+            src="https://cdn.glitch.com/ee9306d7-4d27-4c53-830a-b3ab57b2fa13%2Far_onboarding_1x.gif?v=1600216193828"
+          />
+          <br />
+          Image Credits to Matthew Kuypers
+
+          <br />
+          <br />
+          <i class="fas fa-asterisk"></i>
+          If scanning is taking too long, inform the users what surfaces and
+          environments are ideal for AR before telling them to reset the
+          experience. AR doesn't work well when you're scanning
+          flat surfaces without texture or contrast (like white tables), dim
+          lighting, extremely bright lighting, transparent or reflective
+          surfaces (like glass windows), and moving surfaces (like rippling
+          water).See an appropriate surface below.<br>
+          <img class = "img-fluid"
+               src = "https://cdn.glitch.com/ee9306d7-4d27-4c53-830a-b3ab57b2fa13%2Fgiphy-downsized-large.gif?v=1600225573625"> 
+          <br> Credits to Google's ARCore
+          <br />
+          <br />
+          <i class="fas fa-asterisk"></i>
+          When an object is placed, indicate it with haptic feedback, colorize
+          it, or enlarge it so users know the action was successful. To see an
+          onboarding example, search for “<a class = "contactLink"
+            href="https://www.google.com/search?q=dinosaur&oq=dinosaur&aqs=chrome..69i57j46j0l2j46j0j46j69i60.1229j0j7&sourceid=chrome&ie=UTF-8"
+            >dinosaur</a
+          >” in Google on an AR enabled device and see a tyrannosaurus come to
+          life by clicking the “View in 3D” button. The app will place and
+          colorize the creature as soon as a surface is detected.
+
+          <br />
+          <br />
+          <i class="fas fa-asterisk"></i>
+          Use spatial audio or visual cues to guide users where to look, what to
+          focus on, and to encourage off screen exploration. This is especially
+          helpful if there are objects and sprites outside the user’s current
+          point of view and your experience wants the users to look for them.
+          <br> 
+          <img class = "img-fluid"
+               src = "https://cdn.glitch.com/ee9306d7-4d27-4c53-830a-b3ab57b2fa13%2F9a7e4a02-01b2-4fa6-aa7d-21715b34972e.image.png?v=1600225918161">
+          <br> Credits to Frozen Mountain Software
+          <br />
+          <br />
+          <i class="fas fa-asterisk"></i>
+          If using voice control, animate the mic button whenever the user is
+          speaking and make sure they know the mic is on.
+
+          <br />
+          <br />
+          <i class="fas fa-asterisk"></i>
+          Let users know where they are in the experience if the app makes them
+          travel. For example, Google Maps AR has a mini map on the bottom of
+          the screen to show where the user is, where their destination is, and
+          waypoints that updates live to guide them there.
+          <img
+            class="img-fliud"
+            src="https://cdn.glitch.com/ee9306d7-4d27-4c53-830a-b3ab57b2fa13%2F8f8fcabd-0a4b-420e-a9d4-4e6b97cbbf18.image.png?v=1600198814282"
+          />
+        </p>
+
+        <h3 class="highlightMe">
+          2. MATCH BETWEEN SYSTEM AND THE REAL WORLD
+        </h3>
+
+        <h4>
+          The system should speak the user's language, with words, phrases and
+          concepts familiar to the user, rather than system-oriented terms.
+        </h4>
+
+        <p>
+          <i class="fas fa-asterisk"></i>
+          Use consistent physics, ensuring the virtual objects behave like real
+          life objects and react to its real-world environments. If the users
+          are playing with a bouncy ball, it should be able to bounce on the
+          ground and the walls.
+
+          <br />
+          <br />
+          <i class="fas fa-asterisk"></i>
+          The virtual objects should feel present in the real world and you can
+          enhance it by using object occlusion. The virtual objects should be
+          able to hide behind real world objects or be in front of them so they
+          don’t only behave realistically, but also look realistic.
+
+          <br />
+          <br />
+          <i class="fas fa-asterisk"></i>
+          Add textures, shadows, and lighting to your objects to make them as
+          real and believable as possible. Especially if your app is a utility
+          app like Ikea’s, you don’t want to see an object that looks fake and
+          out of place, or it defeats the purpose of showing customers what the
+          furniture looks like at home. Avoid repeating patterns and flat
+          colors. Instead, add visual noise like wrinkles if your object is made
+          of leather or grains if your object is made of wood.
+        </p>
+
+        <h3 class="highlightMe">
+          3. USER CONTROL AND FREEDOM
+        </h3>
+
+        <h4>
+          Users often choose system functions by mistake and will need a clearly
+          marked "emergency exit" to leave the unwanted state without having to
+          go through an extended dialogue. Support undo and redo.
+        </h4>
+
+        <p>
+          <i class="fas fa-asterisk"></i>
+          Allow users to reset their experiences. Unexpected scenarios will make
+          the users frustrated and giving them the freedom to reset when the
+          camera is taking too long to track a surface, or when the virtual
+          objects are not fixed to their position allows the users to continue
+          the immersion. You don’t want them to be stuck with a bad AR
+          experience and not have an opportunity for a better one.
+
+          <br />
+          <br />
+          <i class="fas fa-asterisk"></i>
+          Support undo and redo features so when an object is in an unwanted
+          location, the users have the freedom to place them somewhere else. If
+          an object is deleted by accident, the user can undo to get it back.
+
+          <br />
+          <br />
+          <i class="fas fa-asterisk"></i>
+          Let users play an animation again in case they missed it or just want
+          to see it again. This is where interactive mechanics like selecting AR
+          objects by pointing your phone at it or coming into proximity to
+          trigger an action are powerful.
+        </p>
+
+        <h3 class="highlightMe">
+          4. CONSISTENCY AND STANDARDS
+        </h3>
+
+        <h4>
+          Users should not have to wonder whether different words, situations,
+          or actions mean the same thing. Follow platform conventions.
+        </h4>
+
+        <p>
+          <i class="fas fa-asterisk"></i>
+          If you can, use subtle haptic feedback, such as a bump from the phone
+          or 3D touch to increase immersiveness and responsiveness in your app.
+          However do not use heavy vibrations or else it will shake too much and
+          cause the phone to lose AR tracking. The type of vibration and touch
+          feedback really depends on the device so make sure the haptic feedback
+          is consistent with all types of devices.
+
+          <br />
+          <br />
+          <i class="fas fa-asterisk"></i>
+          Try using low frequency sounds to convey what the action would sound
+          like in real life.
+
+          <br />
+          <br />
+          <i class="fas fa-asterisk"></i>
+          When designing controls, use predictable interactive mechanics so
+          users are already familiar with your controls and can expect it to
+          behave like other technologies they have used before. You want the
+          information in the system to appear more natural and intuitive. For
+          example, when using familiar hand gestures like dragging, scaling, and
+          rotating, many apps have you drag items with one finger, rotate and
+          scale with two.
+
+          <br />
+          <br />
+          <i class="fas fa-asterisk"></i>
+          Anchor all objects in your AR experience to make it trackable anywhere
+          you are looking at it
+
+          <br />
+          <br />
+          <i class="fas fa-asterisk"></i>
+          Set minimum and maximum sizes for your objects
+
+          <br />
+          <br />
+          <i class="fas fa-asterisk"></i>
+          Use large objects to get users to move around the object and see
+          things at different angles. Make sure to not suddenly place it right
+          in front of them though by adding some distance between the user and
+          the object so it doesn’t surprise them and cause them to walk
+          backwards
+
+          <br />
+          <br />
+          <i class="fas fa-asterisk"></i>
+          Maintain a target size that’s easy to tap for every object in your
+          scene. Even when you shrink the object, the target size should remain
+          the same. Same goes for text. Text size should remain the same no
+          matter how far or close the object is to maintain readability
+        </p>
+
+        <h3 class="highlightMe">5. ERROR PREVENTION</h3>
+
+        <h4>
+          Even better than good error messages is a careful design which
+          prevents a problem from occurring in the first place. Either eliminate
+          error-prone conditions or check for them and present users with a
+          confirmation option before they commit to the action.
+        </h4>
+        <p>
+          <i class="fas fa-asterisk"></i>
+          Whenever possible, test your app with novice users to see if they
+          understand the terminology and visual cues used. Make sure they feel
+          comfortable!
+
+          <br />
+          <br />
+          <i class="fas fa-asterisk"></i>
+          Thumb reach across the screen might shake the phone a bit too, causing
+          the camera to lose AR tracking, so be careful where you place the most
+          important and most used controls on your screen. The most important
+          controls to the experience should be on the bottom while the ones you
+          don't want the users to touch or the reset button should be on the top
+          because it doesn't matter if the phone shakes too much when reaching
+          for it.
+
+          <br />
+          <br />
+          <i class="fas fa-asterisk"></i>
+          Encourage users to take a break by pausing, making levels short, or
+          saving their progress because holding the phone up for a long period
+          of time is exhausting. Especially if it's an outdoor experience, users
+          can be endangered when they're fatigued.
+
+          <br />
+          <br />
+          <i class="fas fa-asterisk"></i>
+          Tell users to look up from phone if they’re accelerating so they’re
+          safe around their surroundings
+
+          <br />
+          <br />
+          <i class="fas fa-asterisk"></i>
+          Respect personal space by making sure the objects don't suddenly pop
+          up right in front of users, at severely close proximity, or the
+          overwhelming size of the models will cause users to be uncomfortable,
+          lose a sense of control over the AR experience, or worst, walk
+          backwards and risk tripping. Microsoft recommends placing the objects
+          at least 2 meters/ 6.56 feet away
+
+          <br />
+          <br />
+          <i class="fas fa-asterisk"></i>
+          Let users know how much space your experience needs upfront:
+          bedroom-sized model? Table-top game? Scavenger hunt around the world?
+        </p>
+
+        <h3 class="highlightMe">
+          6. RECOGNITION RATHER THAN RECALL
+        </h3>
+        <h4>
+          Minimize the user's memory load by making objects, actions, and
+          options visible. The user should not have to remember information from
+          one part of the dialogue to another. Instructions for use of the
+          system should be visible or easily retrievable whenever appropriate.
+        </h4>
+        <p>
+          <i class="fas fa-asterisk"></i>
+          Offer an onboarding tutorial to show interactive mechanics in your
+          app, such as voice control, hand gestures, and surface detection, so
+          first-time users aren't lost when they use your app and give up before
+          they get a chance to dive deeper.
+
+          <br />
+          <br />
+          <i class="fas fa-asterisk"></i>
+          If space permits, use an AR badge that says “See in AR” or “View in
+          3D" so first-time users know where to click to start their experience
+
+          <br />
+          <br />
+          <i class="fas fa-asterisk"></i>
+          When a virtual object is selected, show all the possible actions
+          related to it, like changing colors, rotating, and playing the
+          animation.
+
+          <br />
+          <br />
+          <i class="fas fa-asterisk"></i>
+          Make clickable things look clickable.
+
+          <br />
+          <br />
+          <i class="fas fa-asterisk"></i>
+          Related information is grouped together to help the user focus
+
+          <br />
+          <br />
+          <i class="fas fa-asterisk"></i>
+          There is good color contrast.
+
+          <br />
+          <br />
+          <i class="fas fa-asterisk"></i>
+          The objects are discoverable and users know they can interact and how
+          to interact with them just by looking at the design and reading the
+          instructions.
+        </p>
+
+        <h3 class="highlightMe">7. FLEXIBILITY AND EFFICIENCY OF USE</h3>
+
+        <h4>
+          Accelerators — unseen by the novice user — may often speed up the
+          interaction for the expert user such that the system can cater to both
+          inexperienced and experienced users. Allow users to tailor frequent
+          actions.
+        </h4>
+        <p>
+          <i class="fas fa-asterisk"></i>
+          Accommodate various two-finger gestures like left and right thumb,
+          index finger and thumb, etc… when rotating and scaling objects in a
+          mobile AR app
+
+          <br />
+          <br />
+          <i class="fas fa-asterisk"></i>
+          Allow users to skip information like the onboarding tutorial if they
+          have experience with the app already
+
+          <br />
+          <br />
+          <i class="fas fa-asterisk"></i>
+          Let users hide certain UI and information if it’s not important to the
+          AR experience or else it will block the user’s view and cause
+          discomfort with the overload of information. One of the laws in UX,
+          the Aesthetic Usability Effect, states that users often perceive more
+          aesthetically pleasing user interfaces as design that’s more usable.
+          With limited screen space on our devices, it’s important to show the
+          most important interactions and hide the less used ones for a
+          decluttered, more aesthetically pleasing view.
+        </p>
+
+        <h3 class="highlightMe">
+          8. AESTHETIC AND MINIMALIST DESIGN
+        </h3>
+        <h4>
+          Dialogues should not contain information which is irrelevant or rarely
+          needed. Every extra unit of information in a dialogue competes with
+          the relevant units of information and diminishes their relative
+          visibility.
+        </h4>
+        <p>
+          <i class="fas fa-asterisk"></i>
+          As much as you can, guide users visually with icons, animations, and
+          motion over text as visuals are more universal and engaging. If the
+          gestures are less familiar, then use both visuals and text to convey
+          your message. An example is when the user first sets up their AR
+          experience by moving the phone around to find surfaces. Just visuals
+          or just text would be confusing to novice users but both actions would
+          guide the users better
+
+          <br />
+          <br />
+          <i class="fas fa-asterisk"></i>
+          Make sure the 2D UI is translucent or transparent so users can still
+          see what’s in their surroundings through their phone. AR experiences
+          must be safe to use, which means you must not clutter their view and
+          block the user’s sight.
+
+          <br />
+          <br />
+          <i class="fas fa-asterisk"></i>
+          Don’t use AR popups or else it will unnecessarily surprise the users,
+          distract their attention, and block their view.
+
+          <br />
+          <br />
+          <i class="fas fa-asterisk"></i>
+          Text on top of translucent UI is more readable than transparent UI,
+          but a bit less safe than transparent UI because it blurs the
+          background. If the AR app is intended to be used in the real world,
+          try to use transparent UI for greater safety. See comparison.
+
+          <img
+            class="img-fluid"
+            src="https://cdn.glitch.com/ee9306d7-4d27-4c53-830a-b3ab57b2fa13%2Fd04d86f1-0243-49ce-b94d-828e258faba1.image.png?v=1600212251644"
+          />
+          <br />
+          Image Credits to Avi Barel
+
+          <br />
+          <br />
+          <i class="fas fa-asterisk"></i>
+          Distinguish what controls are important and keep them fixed in one
+          position, on top of the immersive AR environment. For example, that's
+          why the capture button on social media apps like SnapChat and
+          Instagram is always fixed on the bottom of the screen, above the
+          camera content.
+
+          <br />
+          <br />
+          <i class="fas fa-asterisk"></i>
+          Minimize interruptions as much as possible if your app supports AR and
+          non-AR experiences. For example, if you’re using an AR furniture app
+          like IKEA’s, add a banner or carousel that lets users choose different
+          objects to place in the scene rather than have them exit the
+          experience each time to choose something new. See Google’s Search
+          carousel for AR items.
+
+          <br />
+          <br />
+          <i class="fas fa-asterisk"></i>
+          Don’t bombard the screen with too much information or else users will
+          lose track of their surroundings and the realism that comes with AR
+          experiences. It will also distract users and harm them when they can’t
+          see what’s around them. You should instead deliver more graphics
+          gradually in small, controlled bursts. Remember, clear, clutter-free
+          views.
+        </p>
+
+        <h3 class="highlightMe">
+          9. HELP USERS RECOGNIZE, DIAGNOSE, AND RECOVER FROM ERRORS
+        </h3>
+        <h4>
+          Error messages should be expressed in plain language (no code), should
+          precisely indicate the problem, and constructively suggest a solution.
+        </h4>
+
+        <p>
+          <i class="fas fa-asterisk"></i>
+          Support both landscape and portrait modes by shifting important
+          controls around when detected. But if not possible, tell the users
+          which mode they should be on. (show google pic)
+
+          <br />
+          <br />
+          <i class="fas fa-asterisk"></i>
+          Look out for environmental limitations that comes with AR by avoiding
+          flat surfaces without texture or contrast (like white tables), dim
+          lighting, extremely bright lighting, transparent or reflective
+          surfaces (like glass windows), and moving surfaces (like rippling
+          water).
+
+          <br />
+          <br />
+          <i class="fas fa-asterisk"></i>
+          If the user happens to encounter one of those environments, you should
+          never blame the user but help them recover from errors instead. Guide
+          them with clear, concise, everyday terms and don’t use language that
+          mostly people who work in the industry would only know about, like
+          “SLAM” or “occlusion” Examples below from Apple and Google.
+
+          <br />
+          • If an environment is too dark, tell them "Too dark to scan. Try
+          turning on the lights or moving to a well-lit area." <br />
+          • "Device moving too fast. Try moving more slowly." <br />
+          • "Looks like camera is blocked. Try moving your finger or adjusting
+          the device's position."
+        </p>
+
+        <h3 class="highlightMe">
+          10. HELP AND DOCUMENTATION
+        </h3>
+
+        <h4>
+          Even though it is better if the system can be used without
+          documentation, it may be necessary to provide help and documentation.
+          Any such information should be easy to search, focused on the user's
+          task, list concrete steps to be carried out, and not be too large.
+        </h4>
+
+        <p>
+          <i class="fas fa-asterisk"></i>
+          Use the onboarding tutorial to show users how they can start the
+          experience and what the most important mechanics are in the app.
+          However, make sure the tutorial is as compact as it can be because you
+          don’t want to overwhelm the users with too much information. Humans
+          have a short attention span on top of limited short term memory, so
+          you need to show all the important mechanics first and allow for
+          exploration after. This way, users can immerse in your AR app as soon
+          as possible. One of the UX laws, the Hick’s Law,says that the less
+          choices the user has to make, the faster and easier it is for them to
+          start using the app.
+
+          <br />
+          <br />
+          <i class="fas fa-asterisk"></i>
+          Provide a FAQ of what users can do when they encounter problems that’s
+          hard to explain in the experience or add a help button that documents
+          common problems in the experience.
+
+          <br />
+          <br />
+          <i class="fas fa-asterisk"></i>
+          Create tutorials on different media platforms like Youtube so people
+          can get help audiovisually and with a community.
+        </p>
+        <br />
+        <h2>
+          <a class="highlightMe" href="#"> Go Back to the Top </a>
+        </h2>
+        <h2>
+          <a class="highlightMe backButton" href="index.html">
+            Go Back to Main Page
+          </a>
+        </h2>
+      </div>
+    </div>
+  </body>
+</html>
