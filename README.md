@@ -1,2 +1,2 @@
 # yuckyfang.github.io
-Welcome to my personal website!
+Hi, welcome to my personal website!
