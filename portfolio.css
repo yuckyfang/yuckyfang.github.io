@@ -581,7 +581,6 @@ font-size: 15px;
 }
 
 footer {
-  margin-top: 3em;
   padding: 3em;
   background-color: white;
 }
@@ -622,6 +621,10 @@ ul{
 .highlightMe:hover {
   color: white; 
   background-color:#ffd480; 
+}
+
+.highlightFooter{
+  background-color: #ffd480;
 }
 
 
